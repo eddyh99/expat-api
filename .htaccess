@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^images/(.*)$ /public/images/$1 [L,QSA]
+RewriteRule ^(.*)$ /public/index.php?/$1 [L,QSA]
