@@ -92,3 +92,4 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+define('QUINOS_API','6da1b2274c6e008c6c7eb099f6e0bd051e6ada7a');
